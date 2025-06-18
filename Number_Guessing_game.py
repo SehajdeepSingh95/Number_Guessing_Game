@@ -43,7 +43,7 @@ while True:
         print(f"The correct number was: {int_random}")
     
     guess(tries)
-    should_continue = input("Do you want a new match? (Y/N). By default \"Y\" is taken: ").upper()
+    should_continue = input("Do you want a new game? (Y/N). By default \"Y\" is taken: ").upper()
     print("Invalid input! Please enter 'Y' or 'N'.")
     if should_continue == "N":
         print("Thanks for playing!")
